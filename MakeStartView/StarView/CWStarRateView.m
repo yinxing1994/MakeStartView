@@ -46,6 +46,7 @@
         [self buildDataAndUI];
         
     }
+    
     return self;
     
 }
@@ -117,6 +118,7 @@
 - (void)layoutSubviews {
     
     [super layoutSubviews];
+    
     __weak CWStarRateView *weakSelf = self;
     CGFloat animationTimeInterval = self.hasAnimation ? ANIMATION_TIME_INTERVAL : 0;
     
