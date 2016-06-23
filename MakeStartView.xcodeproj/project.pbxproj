@@ -16,6 +16,9 @@
 		BD2523B61D1BDE6E00124A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2523B41D1BDE6E00124A8D /* LaunchScreen.storyboard */; };
 		BD2523C11D1BDE6E00124A8D /* MakeStartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2523C01D1BDE6E00124A8D /* MakeStartViewTests.m */; };
 		BD2523CC1D1BDE6E00124A8D /* MakeStartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2523CB1D1BDE6E00124A8D /* MakeStartViewUITests.m */; };
+		BD2523DE1D1BDE8400124A8D /* b27_icon_star_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2523DA1D1BDE8400124A8D /* b27_icon_star_gray@2x.png */; };
+		BD2523DF1D1BDE8400124A8D /* b27_icon_star_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2523DB1D1BDE8400124A8D /* b27_icon_star_yellow@2x.png */; };
+		BD2523E01D1BDE8400124A8D /* CWStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2523DD1D1BDE8400124A8D /* CWStarRateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		BD2523C71D1BDE6E00124A8D /* MakeStartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeStartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2523CB1D1BDE6E00124A8D /* MakeStartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeStartViewUITests.m; sourceTree = "<group>"; };
 		BD2523CD1D1BDE6E00124A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2523DA1D1BDE8400124A8D /* b27_icon_star_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b27_icon_star_gray@2x.png"; sourceTree = "<group>"; };
+		BD2523DB1D1BDE8400124A8D /* b27_icon_star_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b27_icon_star_yellow@2x.png"; sourceTree = "<group>"; };
+		BD2523DC1D1BDE8400124A8D /* CWStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStarRateView.h; sourceTree = "<group>"; };
+		BD2523DD1D1BDE8400124A8D /* CWStarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWStarRateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +110,7 @@
 		BD2523A21D1BDE6E00124A8D /* MakeStartView */ = {
 			isa = PBXGroup;
 			children = (
+				BD2523D91D1BDE8400124A8D /* StarView */,
 				BD2523A61D1BDE6E00124A8D /* AppDelegate.h */,
 				BD2523A71D1BDE6E00124A8D /* AppDelegate.m */,
 				BD2523A91D1BDE6E00124A8D /* ViewController.h */,
@@ -141,6 +149,17 @@
 				BD2523CD1D1BDE6E00124A8D /* Info.plist */,
 			);
 			path = MakeStartViewUITests;
+			sourceTree = "<group>";
+		};
+		BD2523D91D1BDE8400124A8D /* StarView */ = {
+			isa = PBXGroup;
+			children = (
+				BD2523DA1D1BDE8400124A8D /* b27_icon_star_gray@2x.png */,
+				BD2523DB1D1BDE8400124A8D /* b27_icon_star_yellow@2x.png */,
+				BD2523DC1D1BDE8400124A8D /* CWStarRateView.h */,
+				BD2523DD1D1BDE8400124A8D /* CWStarRateView.m */,
+			);
+			path = StarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +265,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD2523DE1D1BDE8400124A8D /* b27_icon_star_gray@2x.png in Resources */,
+				BD2523DF1D1BDE8400124A8D /* b27_icon_star_yellow@2x.png in Resources */,
 				BD2523B61D1BDE6E00124A8D /* LaunchScreen.storyboard in Resources */,
 				BD2523B31D1BDE6E00124A8D /* Assets.xcassets in Resources */,
 				BD2523AE1D1BDE6E00124A8D /* Main.storyboard in Resources */,
@@ -274,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD2523AB1D1BDE6E00124A8D /* ViewController.m in Sources */,
+				BD2523E01D1BDE8400124A8D /* CWStarRateView.m in Sources */,
 				BD2523B11D1BDE6E00124A8D /* MakeStartView.xcdatamodeld in Sources */,
 				BD2523A81D1BDE6E00124A8D /* AppDelegate.m in Sources */,
 				BD2523A51D1BDE6E00124A8D /* main.m in Sources */,
